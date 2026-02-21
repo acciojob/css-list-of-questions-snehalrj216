@@ -1,15 +1,22 @@
-.questions {
+body {
+  background-color: #f5f5f5;
+  font-family: Georgia, serif;
+}
+
+/* FINAL FIX */
+blockquote.questions {
   background-color: #f8fffe;
   height: 50px;
   margin-top: 20px;
   padding: 15px;
-  max-width: 600px !important;   /* 🔥 ADD THIS */
+  max-width: 600px;   /* REQUIRED */
   border-left: 8px solid green;
 
   display: flex;
   align-items: center;
 }
 
-.questions p {
+/* Remove default margin */
+blockquote.questions p {
   margin: 0;
 }
